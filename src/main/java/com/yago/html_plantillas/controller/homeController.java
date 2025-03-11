@@ -15,15 +15,15 @@ public class homeController {
     }
     @GetMapping("/elements")
     public String home_elements() {
-        return "/elements";
+        return "elements";
     }
     @GetMapping("/generic")
     public String home_generic() {
-        return "/generic";
+        return "generic";
     }
     @GetMapping("/landing")
     public String home_landing() {
-        return "/landing";
+        return "landing";
     }
     
     
